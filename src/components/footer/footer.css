@@ -1,0 +1,31 @@
+/* Общие стили для footer */
+.footer {
+    position: fixed; /* Зафиксировать footer внизу */
+    bottom: 0;       /* Расположить в самом низу окна */
+    left: 0;         /* Прижать к левому краю */
+    width: 100%;     /* Занимать всю ширину окна */
+    background-color: #282c34; /* Цвет фона */
+    color: white;    /* Цвет текста */
+    text-align: center; /* Центрировать текст */
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Легкая тень сверху */
+    z-index: 1000;   /* Убедиться, что footer выше других элементов */
+  }
+  
+  .footer-links {
+    list-style: none; /* Убираем маркеры списка */
+    margin: 10px 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Выравниваем ссылки по центру */
+    gap: 15px; /* Промежутки между ссылками */
+  }
+  
+  .footer-links a {
+    color: #61dafb; /* Цвет ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+  }  
